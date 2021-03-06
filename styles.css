@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  body{
+      background-color:cornflowerblue;
+      
+
+  }
+  .mark_card{
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #fff;
+      height: 400px;
+      width: 400px;
+      margin-top: 130px;
+     
+  }
+  .mark_card--header{
+      background-color: darkcyan;
+      height: 40px;
+      width: 100%;
+  }
+  .mark_card_header--list{
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+      align-items: center;
+      padding-top: 8px;
+      padding-right: 20px;
+      padding-left: 37px;
+  }
+  .mark_card_header--image{
+      list-style-type: none;
+      cursor: pointer;
+  }
+  .container{
+      height: 320px;
+      background-color: #fff;
+      padding-left: 15px;
+      padding-right: 15px;
+      background-color: #fff;
+      
+  }
+.today{
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+.today_title::before{
+    content: "";
+    width: 40%;
+    position: absolute;
+    border: 1px solid #dddddd;
+    left: 5px;
+    top: 18px;
+}
+.today_title::after{
+    content: "";
+    width: 40%;
+    position: absolute;
+    border: 1px solid #dddddd;
+    right: 5px;
+    top: 18px;
+}
+
+.messages{
+    padding-bottom: 10px;
+}
+ 
+.main_messages_first{
+    padding-top: 5px;
+    
+}
+
+.main_messages_new--design{
+    background-color: #e6edf6;
+    width: 70%;
+    height: 40px; 
+    
+}
+.main-messages--clock{
+    padding-bottom: 5px;
+    display: block;
+}
+.main-messages--title{
+    padding-left: 10px;
+  padding-top: 4px;
+}
+
+.main_messages_second{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+.main-messages--clock--right{
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.main_messages_fourth{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.main_messages_new--design--third{
+    background-color:#e6edf6 ;
+    width: 25%;
+    height: 28px; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+.main_messages_new--design--fourth{
+    background-color:#ffc2c1;
+    width: 45%;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 8px;
+}
+
+.footer{
+  height: 48px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.footer_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer_list--item--input{
+    border: none;
+}
+.footer_list--item--input:focus{
+    outline: none;
+}
+ 
